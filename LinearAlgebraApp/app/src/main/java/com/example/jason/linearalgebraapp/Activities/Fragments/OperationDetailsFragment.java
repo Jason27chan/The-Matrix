@@ -40,20 +40,17 @@ public class OperationDetailsFragment extends Fragment {
 
         if (getArguments() != null && getArguments().containsKey(OPERATION_INDEX)) {
             setCalculator(getArguments().getInt(OPERATION_INDEX));
-
         } else {
             displayNoCalculator();
         }
     }
 
     private void displayNoCalculator() {
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         View rootView = inflater.inflate(R.layout.activity_operations, container, false);
         return rootView;
     }

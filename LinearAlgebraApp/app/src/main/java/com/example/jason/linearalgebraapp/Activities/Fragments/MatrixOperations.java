@@ -112,10 +112,6 @@ public class MatrixOperations {
                 newOut[i][curCol] = out[i][k];
             }
         }
-
-
-
-
         return newOut;
     }
 

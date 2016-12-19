@@ -14,22 +14,12 @@ public class Dashboard extends AppCompatActivity implements OnThreadClickedListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
     }
-
-
 
     private void startThreadDetailsActivity(int index) {
         Intent intent = new Intent(this, Operation.class);
 
         intent.putExtra("PLEASE HELP GOD BLESS", index);
-
-//        PendingIntent pendingIntent = TaskStackBuilder.create(this)
-//                        // add all of DetailsActivity's parents to the stack,
-//                        // followed by DetailsActivity itself
-//                .addNextIntentWithParentStack(intent)
-//                .getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
 
         startActivity(intent);
     }
