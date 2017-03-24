@@ -1,4 +1,4 @@
-package com.example.jason.linearalgebraapp.activities.Fragments;
+package com.example.jason.linearalgebraapp.Activities.Fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

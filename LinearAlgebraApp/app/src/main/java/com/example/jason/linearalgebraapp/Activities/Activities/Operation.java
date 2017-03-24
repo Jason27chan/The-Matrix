@@ -1,9 +1,9 @@
-package com.example.jason.linearalgebraapp.activities.activities;
+package com.example.jason.linearalgebraapp.Activities.Activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.jason.linearalgebraapp.activities.Fragments.OperationDetailsFragment;
+import com.example.jason.linearalgebraapp.Activities.Fragments.OperationDetailsFragment;
 import com.example.jason.linearalgebraapp.R;
 
 /**

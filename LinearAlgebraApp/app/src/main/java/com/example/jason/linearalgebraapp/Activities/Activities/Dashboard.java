@@ -1,11 +1,11 @@
-package com.example.jason.linearalgebraapp.activities.activities;
+package com.example.jason.linearalgebraapp.Activities.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.app.PendingIntent;
 import android.app.TaskStackBuilder;
-import com.example.jason.linearalgebraapp.activities.Fragments.OnThreadClickedListener;
+import com.example.jason.linearalgebraapp.Activities.Fragments.OnThreadClickedListener;
 import com.example.jason.linearalgebraapp.R;
 
 public class Dashboard extends AppCompatActivity implements OnThreadClickedListener {
@@ -17,7 +17,7 @@ public class Dashboard extends AppCompatActivity implements OnThreadClickedListe
     }
 
     private void startThreadDetailsActivity(int index) {
-        Intent intent = new Intent(this, Operation.class);
+        Intent intent = new Intent(this, com.example.jason.linearalgebraapp.Activities.Activities.Operation.class);
 
         intent.putExtra("PLEASE HELP GOD BLESS", index);
 

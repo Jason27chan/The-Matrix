@@ -1,4 +1,4 @@
-package com.example.jason.linearalgebraapp.activities.Fragments;
+package com.example.jason.linearalgebraapp.Activities.Fragments;
 
 import android.graphics.Color;
 import android.os.Bundle;
